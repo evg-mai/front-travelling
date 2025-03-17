@@ -1,0 +1,44 @@
+.intro {
+  margin: 0;
+  padding: 64px 16px 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+
+  
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+
+@media (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    padding-right: 286px;
+    padding-left: 48px;
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .intro {
+    padding-right: 442px;
+    padding-left: 148px;
+  }
+}

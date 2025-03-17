@@ -1,0 +1,22 @@
+.intro__title {
+  margin: 0;
+  padding: 0;
+
+  color: inherit; 
+
+  
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+@media (min-width: 768px) {
+  .intro__title {
+    font-size: 54px;
+    line-height: 58px;
+  }
+}

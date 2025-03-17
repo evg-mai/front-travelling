@@ -1,0 +1,15 @@
+.intro__list {
+  margin: 34px 0 0 0;
+  padding: 0;
+  list-style: none; 
+
+  color: inherit; 
+
+  
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}

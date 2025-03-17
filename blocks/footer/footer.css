@@ -1,0 +1,42 @@
+.footer {
+  margin: 64px auto 0 16px;
+  padding: 0;
+
+  background: #2A2C2F; 
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+
+  font-family: 'Inter', Arial, sans-serif;
+  color: #FFFFFF;
+
+  
+  -webkit-font-smoothing: antialiased; 
+  -moz-osx-font-smoothing: grayscale; 
+}
+
+
+@media (min-width: 768px) {
+  .footer {
+    margin-top: 88px;
+    margin-right: 24px;
+    margin-bottom: 0;
+    margin-left: 24px;
+    padding-bottom: 24px;
+
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  .footer {
+    margin-top: 92px;
+    margin-right: 48px;
+    margin-left: 48px;
+  }
+}
